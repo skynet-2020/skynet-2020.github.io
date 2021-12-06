@@ -8,9 +8,9 @@ This is the coolest thing this side of the salt river.
 
 Another paragraph
 
-Prominent Machine Learning Wizard Jonathan Dayton recently said, 
+Prominent Machine Learning Wizard JD recently said, 
 
-> why is my urine yellow today?
+> How could Nepo play KF8 today to go down 5-3?
 
 * Greatest Chess Players Of All Time
   * Gary Kasparov
