@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+![SDNM](/assets/image_test/SDNM.JPG)

@@ -26,15 +26,19 @@
 # WEBSITE http://localhost:4000/about/
 
 
-title: Atreides
+title: Joshua Clark Gilman
 email: jcgilman@asu.edu
 description: >- # this means to ignore newlines until "baseurl:"
   This is a website designed by two planetary ecologists trying to avoid a deadly spice buildup.
 
 
+author: Josh Gilman
+
+
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
 
 
 
@@ -52,6 +56,8 @@ minima:
   social_links:
     twitter: joshcgilman
     github:  skynet-2020
+
+  
 
 # Exclude from processing.
 # The following items will not be processed, by default.
