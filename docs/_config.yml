@@ -24,7 +24,10 @@
 # bundle exec jekyll serve --livereload
 # https://kramdown.gettalong.org/quickref.html
 # WEBSITE http://localhost:4000/about/
-
+# padding
+# https://www.w3schools.com/css/tryit.asp?filename=trycss_boxmodel
+# https://www.w3schools.com/css/tryit.asp?filename=trycss_padding_sides
+# https://www.w3schools.com/css/css_padding.asp
 
 title: Joshua Clark Gilman
 email: jcgilman@asu.edu
