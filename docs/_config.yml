@@ -51,7 +51,7 @@ plugins:
 
 
 minima: 
-  skin: solarized-dark
+  # skin: solarized-dark
 
   social_links:
     twitter: joshcgilman

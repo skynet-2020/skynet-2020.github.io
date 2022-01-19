@@ -1,0 +1,104 @@
+---
+---
+
+@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
+@import "minima/initialize";
+
+// messing with the image width w/ Jonathan
+// img {
+//     // max-width: 10%;
+//     // vertical-align: middle;
+//     // max-width: 100;
+//     width: 100%;
+//     // left: -($spacing-unit);
+//     // position: relative;
+//     // ng-left: 0px;
+// }
+
+
+
+@font-face {
+    font-family: 'open_sauce_sb';
+    src: url(/assets/css/fonts/open_sauce_sans/OpenSauceSans-SemiBold.ttf);
+}
+
+
+@font-face {
+    font-family: 'open_sauce_light';
+    src: url(/assets/css/fonts/open_sauce_sans/OpenSauceSans-Light.ttf);
+}
+
+
+/**
+ * Basic styling
+ */
+ // here is where i need to differentiate the different types of fonts che.
+body {
+
+    font-family: 'open_sauce_light';
+    // padding-left: $spacing-unit / 2;
+    // border-left: 4px solid;
+    // margin: 100;
+    // padding: 20;
+    float: middle;
+    // width: span(11 of 12);
+    // width: 1000px;
+    // margin-right: span(2 of 12);
+    // padding-left: gutter(0.5 of 12);
+    // padding-right: gutter(2 of 12);
+}
+
+
+
+/**
+ * Headings
+ */
+h1 {
+    font-weight: $base-font-weight;
+    font-family: 'open_sauce_sb';
+    // padding-left: $spacing-unit / 2;
+    // border-left: 4px solid;
+    // float: right;
+    // width: span(8 of 12);
+    // margin-right: span(2 of 12);
+    // padding-left: gutter(0.5 of 12);
+    // padding-right: gutter(2 of 12);
+  }
+
+  /**
+ * Blockquotes
+ */
+blockquote {
+    
+    // // border-left: 4px solid $border-color-01;
+    // padding-left: $spacing-unit / 2;
+    // @include relative-font-size(1.125);
+    // font-style: italic;
+  
+    // > :last-child {
+    //   margin-bottom: 0;
+    // }
+  
+    // i, em {
+    //   font-style: normal;
+    // }
+  }
+
+
+/**
+ * Wrapper
+ */
+//  .wrapper {
+//     max-width: calc(#{$content-width} - (#{$spacing-unit}));
+//     margin-right: auto;
+//     margin-left: auto;
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//     @extend %clearfix;
+  
+//     @media screen and (min-width: $on-large) {
+//       max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+//       padding-right: $spacing-unit;
+//       padding-left: $spacing-unit;
+//     }
+//   }
