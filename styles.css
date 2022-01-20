@@ -1,0 +1,27 @@
+
+* {
+    box-sizing: border-box;
+    background-color: #F0E9E5;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: block;
+    
+}
+
+.nav a {
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    /* color: green; */
+}
