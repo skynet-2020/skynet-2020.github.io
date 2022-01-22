@@ -12,6 +12,8 @@
 :root {
     --primary: #F0E9E5;
     --secondary: black;
+    --tertiary: #1100CC;
+    --quaternary: #417B5A;
 }
 
 * {
@@ -40,8 +42,8 @@ html, body {
 }
 
 .btn {
-    height: 50px;
-    width: 150px;
+    height: 40px;
+    width: 120px;
     text-align: center;
     vertical-align: middle;
     padding: 0.9em 0.9em;
@@ -52,9 +54,14 @@ html, body {
     
 }
 
+.btn:hover {
+    background-color: var(--tertiary);
+}
+
 .wrapper {
     display: grid;
     grid-gap: 20px;
+    /* padding: 15% 15%; */
 }
 
 .top-container {
@@ -62,13 +69,14 @@ html, body {
     grid-gap: 20px;
     grid-template-areas: 
     'home-top-box-a home-top-box-b';
+    padding: 15% 15%;
 }
 
 .home-top-box-a {
     grid-area: home-top-box-a;
     min-height: 400 px;
-    margin-top: 6em;
-    padding-left: 20%;
+    /* margin-top: 6em;
+    padding-left: 20%; */
     
 }
 
@@ -76,8 +84,8 @@ html, body {
     /* float: right; */
     grid-area: home-top-box-b;
     min-height: 400px;
-    margin-top: 6em;
-    padding-right: 20%;
+    /* margin-top: 6em;
+    padding-right: 20%; */
 }
 
 
@@ -105,7 +113,7 @@ html, body {
     /* display: block;  */
     /* padding: 2.5em 1em; */
     /* border: 10px solid black; */
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 /* .main-nav {
