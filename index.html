@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="en">
 
+
+
+<!-- Notes -->
+
+<!-- https://stackoverflow.com/questions/16562577/how-can-i-make-a-button-redirect-my-page-to-another-page?noredirect=1&lq=1 -->
+<!-- https://stackoverflow.com/questions/1495407/maintain-the-aspect-ratio-of-a-div-with-css -->
+
 <!-- the head section defines what is going on under the hood -->  
     <head>
         <meta charset="utf-8">
@@ -10,38 +17,62 @@
 
 
     <body>
-        
-    </p> 
-            
-    I’m Josh Gilman, <br />
-    and I’m a PhD student <br />
-    studying the interactions <br />
-    between landscape pattern, <br />
-    climate change, and <br />
-    ecosystem services <br /> 
+        <wrapper>
+            <div class = top-container>
+                <div class = home-top-box-a>
 
-    </p>
-    
-        <nav class = "nav main-nav">
-            <ul>
-                <li><a href = "about.html"> About </a>  </li>
-                <li><a href = "PhD_research.html"> PhD Research</a>  </li>
-                <li><a href = "ms_research.html"> MS Research</a> </li>
+                    <p class = "text opening-text">  
+                    Hello there, <br />
+                    I’m Josh Gilman, <br />
+                    and I’m a PhD student <br />
+                    studying the interactions <br />
+                    between landscape pattern, <br />
+                    climate change, and <br />
+                    ecosystem services <br />
+                    </p>
+
+                </div>
                 
+                <div class = home-top-box-b> 
+                    <nav class = "nav main-nav">
+                        <ul>
 
-            </ul>
-    
+                            <li> <button id="btn_1" class="btn" > About Me </button> </li>
 
-        </nav>
-            
-      
-    
-            
+                                <script type="text/javascript">
+                                    document.getElementById("btn_1").onclick = function () {
+                                        location.href = "about.html";
+                                    };
+                                </script>
 
-        
-    
-        
+                            <li> <button id="btn_2" class="btn" > PhD research </button> </li>
+                                <script type="text/javascript">
+                                    document.getElementById("btn_2").onclick = function () {
+                                        location.href = "PhD_research.html";
+                                    };
+                                </script>
 
+                            <li> <button id="btn_3" class="btn" > MS research </button> </li>
+
+                                <script type="text/javascript">
+                                    document.getElementById("btn_3").onclick = function () {
+                                        location.href = "ms_research.html";
+                                    };
+                                </script>
+
+                            <li> <button id="btn_4" class="btn" > Contact </button> </li>
+
+                            <script type="text/javascript">
+                                document.getElementById("btn_4").onclick = function () {
+                                    location.href = "contact.html";
+                                };
+                            </script>
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </wrapper>
     </body>
 </html>
 

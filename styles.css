@@ -1,27 +1,132 @@
 
+
+@font-face {
+    font-family: "open sauce sans semi bold";
+    src: url("fonts/open_sauce/OpenSauceSans-SemiBold.ttf");
+}
+@font-face {
+    font-family: "open sauce sans light";
+    src: url("fonts/open_sauce/OpenSauceSans-Light.ttf");
+}
+
+:root {
+    --primary: #F0E9E5;
+    --secondary: black;
+}
+
 * {
     box-sizing: border-box;
-    background-color: #F0E9E5;
+    background-color: var(--primary);
+    font-family: "open sauce sans light";
 }
 
 html, body {
     margin: 0;
+    padding: 0;   
+}
+
+.text {
+    margin: 0;
     padding: 0;
+}
+
+.opening-text {
+    font-family: "open sauce sans semi bold";
+    font-size: 2.7em;
+    word-spacing: 0px;
+    line-height: 52px;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.9em 0.9em;
+    border: none;
+    color: var(--primary);
+    background-color: var(--secondary);
+    text-decoration: none;
+    
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.top-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+    'home-top-box-a home-top-box-b';
+}
+
+.home-top-box-a {
+    grid-area: home-top-box-a;
+    min-height: 400 px;
+    margin-top: 6em;
+    padding-left: 20%;
+    
+}
+
+.home-top-box-b {
+    /* float: right; */
+    grid-area: home-top-box-b;
+    min-height: 400px;
+    margin-top: 6em;
+    padding-right: 20%;
 }
 
 
 .nav ul {
+    display: grid;
+    grid-area: home-top-box-b;
+    grid-auto-rows: 6.5rem;
+    /* grid-template-rows: auto auto; */
+    /* grid-gap: 7rem; */
+    
+    /* margin: 0; */
+    padding: 0;
     margin: 0;
+    list-style: none;
 }
 
 .nav li {
-    display: block;
+    /* display: grid; */
+    /* padding: 0; */
+    
     
 }
 
 .nav a {
-    display: block;
-    padding: 0.5em;
+    /* display: block;  */
+    /* padding: 2.5em 1em; */
+    /* border: 10px solid black; */
     text-decoration: none;
-    /* color: green; */
 }
+
+/* .main-nav {
+    text-align: right;
+    padding: 0em 0em;
+
+} */
+
+/* necessary? */
+.main-nav a {
+   
+}
+
+
+
+
+
+
+/* TODO: 
+1.) make the resizing of the page change the outer spaces
+2.) make button widths the same
+
+/* Questions:
+1.) px vs. em vs. percentages for padding? */
