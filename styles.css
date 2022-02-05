@@ -4,27 +4,66 @@
     font-family: "open sauce sans semi bold";
     src: url("fonts/open_sauce/OpenSauceSans-SemiBold.ttf");
 }
+
 @font-face {
     font-family: "open sauce sans light";
     src: url("fonts/open_sauce/OpenSauceSans-Light.ttf");
 }
 
+@font-face {
+    font-family: "open sauce sans bold";
+    src: url("fonts/open_sauce/OpenSauceSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "sequel sans heavy head";
+    src: url("fonts/sequel_sans/Sequel\ Sans\ Heavy\ Head].ttf");
+}
+
+@font-face {
+    font-family: "sequel sans black body";
+    src: url("fonts/sequel_sans/Sequel\ Sans\ Black\ Body.ttf");
+}
+
+@font-face {
+    font-family: "sequel sans bold disp";
+    src: url("fonts/sequel_sans/Sequel\ Sans\ Bold\ Disp.ttf");
+}
+
+@font-face {
+    font-family: "genera light";
+    src: url("fonts/genera/Wahyu\ and\ Sani\ Co.\ -\ Genera\ Alt\ Light.ttf");
+}
+
+@font-face {
+    font-family: "neue singular D medium";
+    src: url("fonts/neue/Fontspring-DEMO-neuesingular-d-medium.otf");
+}
+
+@font-face {
+    font-family: "neue singular D light";
+    src: url("fonts/neue/Fontspring-DEMO-neuesingular-d-light.otf");
+}
+
 :root {
-    --primary: #F0E9E5;
+    --primary: #FFFFFF;
     --secondary: black;
-    --tertiary: #1100CC;
-    --quaternary: #417B5A;
+    /* --tertiary: #FFFFFF;
+    --quaternary: #FFFFFF; */
+    --tertiary: #303596;
+    --quaternary: #787FF6;
+    --quinary: #1100CC;
 }
 
 * {
     box-sizing: border-box;
-    background-color: var(--primary);
-    
+    background-color: var(--test);
 }
 
-html, body {
+html {
     margin: 0;
     padding: 0;   
+    /* text-size-adjust: 100%; */
 }
 
 .text {
@@ -33,8 +72,10 @@ html, body {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-family: "open sauce sans light";
+    font-family: "neue singular D light";
 }
+
+
 
 img {
     display: block;
@@ -42,37 +83,13 @@ img {
     max-width: 100%;
 }
 
-
 .opening-text {
-    font-family: "open sauce sans semi bold";
+    font-family: "sequel sans bold disp";
     font-size: 3.5em;
-    word-spacing: 0px;
-    line-height: 52px;
+    /* word-spacing: 10px; */
+    line-height: 65px;
     margin: 0;
     padding: 0;
-}
-
-.btn {
-    height: 40px;
-    width: 120px;
-    text-align: center;
-    vertical-align: middle;
-    padding: 0.9em 0.9em;
-    border: none;
-    color: var(--primary);
-    background-color: var(--secondary);
-    text-decoration: none;
-    
-}
-
-.btn:hover {
-    background-color: var(--tertiary);
-}
-
-.whole-container {
-    margin: auto;
-    max-width: 1024px;
-    padding: 0 20px;
 }
 
 .top-head-container {
@@ -80,54 +97,195 @@ img {
     flex-direction: column;
     height: 90vh;
     justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
+    box-orient: vertical;
+    box-direction: normal;
+    flex-direction: column;
+    box-pack: center;
+    justify-content: center;
 }
 
-h1 {
-    font-family: "open sauce sans semi bold";
-    font-size: 3em;
-    word-spacing: 0px;
-    line-height: 52px;
+.outer-container {
     margin: 0;
-    padding: 0px 0px;
+    padding: 0;
+    /* background-color: #787FF6; */
 }
 
+.inner-container {
+    margin: auto;
+    max-width: 1024px;
+    padding: 0 20px;
+    /* background-color: #787FF6; */
+}
+
+
+
+/* BUILDING BLOCK COLOR CONSTANT */
+.top-color {
+    background-color: var(--primary);
+    color: var(--secondary);
+
+    /* background-color: var(--primary);
+    color: var(--quinary); */
+
+}
+
+.intro-phrase-color {
+    /* background-color: var(--quinary);
+    color: var(--primary); */
+
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.bb1-color {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.bb2-color {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.bb3-color {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.bb4-color {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.bb5-color {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.bb6-color {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+/* BUILDING BLOCK COLOR VARIES */
+
+/* 
+.top-color {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.bb1-color {
+    background-color: var(--tertiary);
+    color: var(--primary);
+}
+
+.bb2-color {
+    background-color: var(--quaternary);
+    color: var(--primary);
+}
+
+.bb3-color {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.bb4-color {
+    background-color: var(--tertiary);
+    color: var(--primary);
+}
+
+.bb5-color {
+    background-color: var(--quaternary);
+    color: var(--primary);
+}
+
+.bb6-color {
+    background-color: var(--primary);
+    color: var(--secondary);
+} */
+
+/* END BUILDING BLOCK COLOR VARIES */
+
+.bb-outer-container {
+    margin: 0;
+    padding: 0;
+    /* background-color: #787FF6;  */
+} 
+
+/* class css-19p32q6 in Andy's code */
 .building-block {
     display: flex;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -webkit-box-lines: multiple;
-    -webkit-flex-wrap: wrap;
+    box-align: start;
+    align-items: flex-start;
+    box-lines: multiple;
+    flex-wrap: wrap;
+    /* background-color: #303596; */
 }
 
+/* class css-126ixdj in Andy's code */
 .bb-a {
     padding-top: 30px;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    -webkit-flex: 0 0 40%;
+    flex: 0 0 35%;
+    /* background-color: #303596; */
 }
 
+/* class css-yq886z in Andy's code */
 .bb-b {
     padding-top: 30px;
-    -webkit-flex: 0 0 60%;
+    flex: 0 0 65%;
+    /* background-color: #303596; */
 }
 
 .bb-b img {
-    margin: 40px 0px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: "sequel sans bold disp";
+    color: var(--secondary);
+    font-size: 3.5em;
+    word-spacing: 10px;
+    line-height: 65px;
+    margin: 0;
+    padding: 0px;
 }
 
 
 
+.edcar_letter{
+    font-size:180px;
+}
+
+@media screen and (max-width: 900px) {
+    .bb-a {
+        flex: 1 0 100%;
+
+    }
+
+    .bb-b {
+        flex: 1 0 100%;
+    }
+}
 
 
 /* TODO: 
-1.) make the resizing of the page change the outer spaces
-2.) make button widths the same
+1.) Font sizing changes with screen resolution
+2.) Font Animation
+3.) Create the content including photos
+4.) Improve the down arrow?
+5.) selecting the colors
+
 
 /* Questions:
 1.) px vs. em vs. percentages for padding? */
+
+/* COLORS: */
+/* #303596 */
+/* #787FF6 */
+/* # FFFFFF */
+
