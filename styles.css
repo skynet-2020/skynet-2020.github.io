@@ -54,6 +54,7 @@
     --quaternary: #787FF6;
     --quinary: #1100CC;
     --redrock: #A7472C;
+    --redrock_dark: #A04732;
 }
 
 * {
@@ -122,11 +123,11 @@ img {
 
 /* BUILDING BLOCK COLOR CONSTANT */
 .top-color {
-    background-color: var(--primary);
-    color: var(--redrock);
+    background-color: var(--redrock_dark);
+    color: var(--primary);
 
     /* background-color: var(--primary);
-    color: var(--quinary); */
+    color: var(--redrock_dark); */
 
 }
 
