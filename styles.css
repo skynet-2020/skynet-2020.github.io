@@ -45,6 +45,11 @@
     src: url("fonts/neue/Fontspring-DEMO-neuesingular-d-light.otf");
 }
 
+@font-face {
+    font-family: "VayuSans-Bold";
+    src: url("fonts/vayu_sans/VayuSans-Bold.ttf");
+}
+
 :root {
     --primary: #FFFFFF;
     --secondary: black;
@@ -74,7 +79,7 @@ html {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-family: "neue singular D light";
+    font-family: "VayuSans-Bold";
 }
 
 
