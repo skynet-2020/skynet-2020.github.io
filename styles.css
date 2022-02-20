@@ -82,8 +82,6 @@ html {
     font-family: "VayuSans-Bold";
 }
 
-
-
 img {
     display: block;
     margin: auto;
@@ -92,6 +90,7 @@ img {
 
 .opening-text {
     font-family: "sequel sans bold disp";
+    /* font-size: 3.5vw; */
     font-size: 3.5em;
     /* word-spacing: 10px; */
     line-height: 65px;
@@ -133,7 +132,6 @@ img {
 
     /* background-color: var(--primary);
     color: var(--redrock_dark); */
-
 }
 
 .intro-phrase-color {
@@ -207,11 +205,6 @@ img {
     color: var(--primary);
 }
 
-.bb6-color {
-    background-color: var(--primary);
-    color: var(--secondary);
-} */
-
 /* END BUILDING BLOCK COLOR VARIES */
 
 .bb-outer-container {
@@ -247,10 +240,20 @@ img {
     /* background-color: #303596; */
 }
 
-.bb-b img {
+
+
+.pic {
     margin-top: 10px;
     margin-bottom: 40px;
 }
+
+/* TODO: customize img classes */
+
+.custom-pic {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
 
 h1 {
     font-family: "sequel sans bold disp";
@@ -262,21 +265,30 @@ h1 {
     padding: 0px;
 }
 
-
-
 .edcar_letter{
     font-size:180px;
 }
 
+/* so the line break can respond to screen size.  */
+.variable-br {
+    display: inline
+}
+
+
 @media screen and (max-width: 900px) {
     .bb-a {
         flex: 1 0 100%;
-
     }
 
     .bb-b {
         flex: 1 0 100%;
     }
+
+    /* below 900px screen size, the line breaks are gone for the <br class = variable-br /> */
+    .variable-br {
+        display: none;
+    }
+
 }
 
 
