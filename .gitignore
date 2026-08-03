@@ -1,0 +1,19 @@
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# JavaScript dependencies and build output
+node_modules/
+build/
+dist/
+
+# Large geospatial raster data
+*.tif
+*.tiff
+
+# Local environment and editor files
+.env
+.env.*
+.vscode/
+.idea/
+
