@@ -1,6 +1,6 @@
 # Final background candidates
 
-Both candidates use the same V25 numeric field and 160 x 90 raster-cell grid.
+All candidates use a 160 x 90 raster-cell grid.
 
 ## Candidate A: V25 viridis
 
@@ -20,6 +20,15 @@ Both candidates use the same V25 numeric field and 160 x 90 raster-cell grid.
 - File: `candidate-c-v30-smoother-viridis.png`
 - Palette: viridis, approximately 0.00 to 0.96
 - Pattern: V25 exterior variation with an 85% broad low-pass blend
+- Status: preserved comparison candidate
+
+## Candidate D: V30 smoother indigo to cherry
+
+- File: `candidate-d-v30-indigo-cherry.png`
+- Pattern: exact V30 numeric field and smoothing
+- Center: `#3B2F68`
+- Exterior: `#A63446`
+- Interpolation: continuous CIE Lab
 - Status: currently hosted on the website
 
 ## Shared text color
