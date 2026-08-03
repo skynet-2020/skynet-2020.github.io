@@ -42,7 +42,7 @@ body {
 
 .card {
   width: min(38rem, calc(100% - 3rem));
-  color: #fff;
+  color: #e8e6df;
   text-align: center;
   text-wrap: balance;
 }
@@ -78,7 +78,7 @@ body {
 }
 
 .links span {
-  border-bottom: 1px solid rgb(255 255 255 / 65%);
+  border-bottom: 1px solid rgb(232 230 223 / 65%);
   line-height: 1.4;
 }
 
