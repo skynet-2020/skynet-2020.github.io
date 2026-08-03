@@ -14,6 +14,12 @@ dist/
 # Local environment and editor files
 .env
 .env.*
+.Rapp.history
 .vscode/
 .idea/
 
+# Generated raster experiments (only selected final assets belong in /assets)
+raster-generation/outputs/**/*.png
+raster-generation/outputs/**/*.jpg
+raster-generation/outputs/**/*.jpeg
+raster-generation/outputs/**/*.rds
