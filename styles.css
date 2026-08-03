@@ -49,10 +49,11 @@ body {
 
 .card h1 {
   margin: 0;
-  font-size: clamp(3rem, 8vw, 6.75rem);
+  font-size: clamp(2.75rem, 8vw, 6.75rem);
   font-weight: 650;
   letter-spacing: -0.045em;
   line-height: 0.95;
+  white-space: nowrap;
 }
 
 .card p {
