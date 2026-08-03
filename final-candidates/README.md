@@ -39,4 +39,14 @@ All candidates use a 160 x 90 raster-cell grid.
 - Exterior: `#E8E6DF`
 - Interpolation: continuous CIE Lab
 - Text: `#A63446`
+- Status: preserved comparison candidate
+
+## Candidate F: V30 smoother warm white to indigo
+
+- File: `candidate-f-v30-warm-white-indigo.png`
+- Pattern: exact V30 numeric field and smoothing
+- Center: `#E8E6DF`
+- Exterior: `#3B2F68`
+- Interpolation: continuous CIE Lab
+- Text: `#A63446`
 - Status: currently hosted on the website
