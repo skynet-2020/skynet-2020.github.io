@@ -42,7 +42,7 @@ body {
 
 .card {
   width: min(38rem, calc(100% - 3rem));
-  color: #a63446;
+  color: #e8e6df;
   text-align: center;
   text-wrap: balance;
 }

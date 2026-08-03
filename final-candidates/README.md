@@ -6,7 +6,7 @@ All candidates use a 160 x 90 raster-cell grid.
 
 - File: `candidate-a-v25-viridis.png`
 - Palette: viridis, approximately 0.00 to 0.96
-- Status: preserved comparison candidate
+- Status: currently hosted on the website
 
 ## Candidate B: V28 indigo to cherry
 
@@ -59,4 +59,4 @@ All candidates use a 160 x 90 raster-cell grid.
 - Exterior: `#3B2F68`
 - Interpolation: continuous CIE Lab
 - Text: `#A63446`
-- Status: currently hosted on the website
+- Status: preserved comparison candidate
